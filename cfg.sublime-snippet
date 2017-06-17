@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+with open(${1:config_file}, "r") as fd:
+    ${1:config_data} = json.load(fd, object_pairs_hook=OrderedDict)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cfg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

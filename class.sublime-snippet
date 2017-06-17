@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+class ${1:ClassName}(${2:object}):
+
+    def __init__(self, ${3:arg}):
+        self.${3:arg} = ${3:arg}
+
+    def __repr__(self):
+        return "${1:ClassName}('%s') % (${3:arg})"
+
+    def __str__(self):
+        pass
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>class</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

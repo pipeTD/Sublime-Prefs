@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+global proc ${1:main}()
+{
+    /* $2 */
+    $3
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>glp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
