@@ -43,5 +43,7 @@
 	"soda_classic_tabs": true,
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"word_wrap": false
+	"word_wrap": false,
+	"color_scheme": "Monokai.sublime-color-scheme",
+	"auto_complete": false,
 }
